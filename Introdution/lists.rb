@@ -9,6 +9,12 @@ numberlist << 100 # same as numberlist.push(100)
 numberlist.unshift(0) # adds 0 to the beginning of the array
 numberlist.insert(2, 50) # inserts 50 at the 2nd position of the array
 
+numbers.map! do |number| # ! is used to modify the original array
+  number * 5
+end
+
+puts numbers
+
 puts "---------------------------------------"
 puts "The array: #{numberlist}" # prints the array
 puts "---------------------------------------"

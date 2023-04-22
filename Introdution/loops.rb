@@ -38,4 +38,3 @@ end
 puts "The sum of #{random} random numbers is #{counter}"
 
 puts "-" * 50
-

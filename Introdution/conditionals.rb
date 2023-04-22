@@ -23,3 +23,5 @@ when 2
 else
 	puts "The number is not 1 or 2"
 end
+
+puts x == y ? "x is equal to y" : "x is not equal to y" # ternary operator
