@@ -15,7 +15,6 @@ hashes.delete(:two)
 
 hashes["five"] = nil
 
-
 puts "---------------------------------------"
 puts "Hashes (#{hashes.size}) in yellow: " + "\e[33m" + "#{hashes}" + "\e[0m" # prints the hash in yellow color
 puts "---------------------------------------"
